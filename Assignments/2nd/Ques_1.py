@@ -2,6 +2,7 @@ def odd_even(num):
     
     rem=num%2
     return rem
+    
     # if num%2==0:
     #     print("Entered number is even")
     # else:

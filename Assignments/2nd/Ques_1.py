@@ -1,18 +1,19 @@
-def odd_even(num):
-    
+def odd_even():
+
+    num=int(input("Enter a number to check for odd or even : "))
+
     rem=num%2
-    return rem
+    # return rem
     
-    # if num%2==0:
-    #     print("Entered number is even")
-    # else:
-    #     print("Entered number is odd")
+    if rem==0:
+        print("Entered number is even")
+    else:
+        print("Entered number is odd")
 
-a=int(input("Enter a number to check for odd or even : "))
 
-ans=odd_even(a)
+#odd_even()
 
-if ans==0:
-    print("entered number is even")
-else:
-    print("entered number is odd")
+# if ans==0:
+#     print("entered number is even")
+# else:
+#     print("entered number is odd")

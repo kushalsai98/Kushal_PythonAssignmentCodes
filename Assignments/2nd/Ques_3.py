@@ -1,6 +1,8 @@
 #Printing a * pyramid pattern
 
-def full_pyramid(n):
+def full_pyramid():
+
+    n=int(input("Enter the number of steps you need for the * pyramid :"))
     for i in range(1, n + 1):
         for j in range(n - i):
             print(" ", end="")
@@ -9,7 +11,7 @@ def full_pyramid(n):
             print("*", end="")
         print()
 
-full_pyramid(10)
+#full_pyramid(10)
 
 # n=5
 # for i in range(1, n + 1):

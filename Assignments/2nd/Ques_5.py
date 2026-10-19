@@ -1,10 +1,14 @@
-def mul_table(n,m):
+def mul_table():
 
-    for i in range(1,m+1):
-        print(n," * ",i," = ",n*i)
+    a=int(input("Enter which table you want to print : "))
+    b=int(input("Enter a number till which end you want to print the table : "))
 
-a=int(input("Enter which table you want to print : "))
-b=int(input("Enter a number till which end you want to print the table : "))
+    print("Mutiplication table :")
+    for i in range(1,b+1):
+        print(a," * ",i," = ",a*i)
 
-mul_table(a,b)
+# a=int(input("Enter which table you want to print : "))
+# b=int(input("Enter a number till which end you want to print the table : "))
+
+# mul_table(a,b)
     

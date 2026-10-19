@@ -3,6 +3,11 @@ from Ques_2 import factorial
 from Ques_5 import mul_table
 from Ques_3 import full_pyramid
 
+print("Please select items from the below menu to execute the task:")
+print("1. Odd or Even task")
+print("2. Factorial task")
+print("3. Multiplication table task")
+print("4. Star pyramid pattern task")
 item=int(input("Enter which Item you want to select from the menu :"))
 
 if item==1:
